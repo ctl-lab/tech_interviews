@@ -49,3 +49,21 @@ NoMethodError (undefined method `paint_car' for main:Object)
  => "red" 
 2.7.0 :007 > 
 
+
+How do you initialize rspec in a folder?
+1- Create a Gemfile, add the source and gem 'rspec'
+2-Run $bundle
+3-Run $rspec --init
+
+We would ordinarily have written our tests first, then written code to make them pass. Why?
+Test come from user stories, we know what we expect from our feature before we can wirte it. It helps us build the feature.
+
+What are the benefits of TDD?
+see previous question. + it makes us confident about our code, makes us write a more solid and clever code
+
+Write a user story for the painting method.
+as a car factory
+in order to be able to choose my car color
+i need to be able to pain the car the color of my choise. 
+
+
